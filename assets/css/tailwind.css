@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-red-400;
+    @apply bg-white;
 }
 
 .wrapper {
@@ -15,6 +15,6 @@ body {
     @apply bg-primary shadow-xl rounded-md p-4;
 }
 
-.btn {
-    @apply bg-secondary py-1 px-2 rounded-sm text-lg;
+.oswald {
+    font-family: 'Oswald';
 }
