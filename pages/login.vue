@@ -6,7 +6,6 @@ definePageMeta({
 
 const supabase = useSupabaseClient();
 const handleLoginWithGoogle = async () => {
-
     const { error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
     })
@@ -18,7 +17,7 @@ const handleLoginWithGoogle = async () => {
 
 <template>
     <div
-      class="min-h-screen bg-gradient-to-tl from-[#5991C1] to-primary-dark w-full py-16 px-4"
+      class="min-h-screen bg-gradient-to-tl from-[#5991C1] to-primary-dark w-full py-16 px-2 sm:px-4"
     >
       <div class="flex flex-col items-center justify-center">
        
@@ -28,7 +27,7 @@ const handleLoginWithGoogle = async () => {
         </div>
 
         <div
-          class="bg-white shadow rounded lg:w-2/5 xl:w-1/3 md:w-1/2 w-full p-10 mt-8 sm:mt-16"
+          class="bg-white shadow rounded lg:w-2/5 xl:w-1/3 md:w-1/2 w-full p-4 mt-8 sm:mt-16"
         >
           <p
             tabindex="0"

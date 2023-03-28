@@ -1,7 +1,7 @@
 <template>
-    <div class="text-primary">
-        Protal
-        {{ user }}
+    <div>
+
+        <posts></posts>
     </div>
 </template>
 
