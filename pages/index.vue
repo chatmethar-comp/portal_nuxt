@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <posts></posts>
+        <posts :user="user? user.user_metadata.picture : ''"></posts>
     </div>
 </template>
 
